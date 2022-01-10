@@ -7,7 +7,6 @@
     padding-bottom: 110px;
     position: relative;
     color: azure;
-    
 }
 .display1{
     font-size: 50px;
@@ -59,5 +58,41 @@
 }
 .final{
     justify-items: center;
+}
+#design-hide {
+    display: none;
+}
+#development-hide{
+    display: none;
+}
+#product-hide{
+    display: none;
+}
+.bailey{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.bailey p{
+    font-size: 50px;
+    border: 20px solid white;
+}
+.baileytext{
+    font-size: 18px;
+    border: 5px, solid black;
+}
+.services-text{
+    font-size: 17px;
+}
+#name-input::placeholder, #mail-input::placeholder, #message::placeholder{
+    color: white;
+}
+.submit{
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
 }
 

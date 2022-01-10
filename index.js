@@ -1,13 +1,12 @@
 $(document).ready(function(){
     $("section .header").addClass('text-center text-white');
-    h
     // $("#what-we-do").addClass('justify-content-center ml-5');
        
     $("#design").click(function(){
         $("#hidden-design").toggle()
         $("#design").toggle()
     });
-    $("#hidden design").click(function(){
+    $("# design hide ").click(function(){
         $("#design").toggle()
         $("#hidden design").toggle()
 
@@ -90,17 +89,17 @@ function(){
 
 })
 
-// Form verification
-function verification(){
-var nameInput = document.getElementById("name-input").value;
-var mailInput = document.getElementById("mail-input").value;
-if(nameInput==""){
-    alert("Please  input your name");
-    return false
-}
-if(mailInput==""){
-    alert("Please  input your email")
-    return false
-}
-alert("Thank you" + nameInput + " we have received your message");
-}
+function verify(){
+    let name = document.getElementById('idname').value;
+    let email = document.getElementById('idemail').value;
+    if(name==''){
+        alert('input valid name');
+        return false
+    }
+    if(email==''){
+        alert('input valid email');
+        return false
+    }
+    else{alert('welcome '+name)
+    alert('message received')
+    }
