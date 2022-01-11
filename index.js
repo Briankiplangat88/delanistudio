@@ -36,7 +36,7 @@ function verify(){
         return false
     }
 alert('welcome '+name)
-alert('email is noted')
+alert('your message has been received.Thanks')
 }
 
 function on(){
