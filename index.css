@@ -1,98 +1,63 @@
-#header{
+.jumbotro{
     background-image: url(delanin.jpg);
-    background-repeat: no-repeat;
+    height: 80vh;
     background-size: cover;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 110px;
-    position: relative;
-    color: azure;
-}
-.display1{
-    font-size: 50px;
-}
-.display2{
-    text-align: center;
-    color :black
-}
-.about{
-    text-align: center;
-}
-#services{
-    background-image: url(delanicomp.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: azure;
-    font-size:  15px 
-}
-.display3{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-.row1{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right:100px;
 
 }
-.img-fluid{
-    margin-left: 2.5rem;
+.services{
+    background-image: url(delanicomp.jpg);
+    height: 50vh;
+    background-size:cover;
+    padding-top: 50%;
 }
-.row{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right:100px;
+.contain{
+    display: none;
 }
-#contact{
+.design{
+    display: none;
+}
+.develop{
+    display: none;
+}
+.manage{
+    display: none;
+}
+.contact{
     background-image: url(delani1.jpg);
-    background-repeat: no-repeat;
+    height: 50vh;
     background-size: cover;
-    text-align: center;
-    color: azure;
 }
-.final{
-    justify-items: center;
+.designing{
+    border: 2px rgb(22, 21, 21);
+    transition: 1s;
 }
-#design-hide {
-    display: none;
+.designing:hover{
+    box-shadow: 0 0 2px rgba(63, 1, 1, 0.2);
 }
-#development-hide{
-    display: none;
+form input{
+    background: transparent !important;
 }
-#product-hide{
-    display: none;
+form textarea{
+    height: 40px;
+    background: transparent !important;
 }
-.bailey{
+#text{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-.bailey p{
     font-size: 50px;
-    border: 20px solid white;
-}
-.baileytext{
-    font-size: 18px;
-    border: 5px, solid black;
-}
-.services-text{
-    font-size: 17px;
-}
-#name-input::placeholder, #mail-input::placeholder, #message::placeholder{
     color: white;
+    border: 79px solid rgba(0, 0, 0, 0.3);
+    transform: translate(-50%,-50%);
+   
+  }
+  #overla, #overl, #overlay, #over, #overlay,#carry, #carr, #car, #ca{
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
 }
-.submit{
-    border-radius: 5px;
-    padding: 5px;
-    color: white;
-    font-weight: bold;
-}
+
 
