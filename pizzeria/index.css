@@ -1,0 +1,127 @@
+.navbar{
+    display: flex;
+    flex-direction: right;
+    list-style: none;
+    color: burlywood;
+
+}
+navbar {
+    background-color: #6b0655;
+  }
+  .container-fluid {
+    background-image: url("pizzabg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:burlywood;
+  }
+  h1{
+      font-family: Arial, Helvetica, sans-serif;
+      
+  }
+  .Table {
+    background-color: whitesmoke;
+    color: burlywood;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius:15px 50px 30px 5px;
+    
+  }
+  .card {
+    background-color:rgb(128, 128, 128);
+  
+    
+  }
+  
+  
+  
+  .hidden {
+    display: none;
+  }
+  .container form {
+    background-color:burlywood;
+    color: white;
+  }
+  nav .navbar-nav li a {
+    color: white !important;
+    font-size: 18px;
+  }
+  
+  
+  #contain {
+      background-color: burlywood;
+      color: black;
+      text-align: center;
+      background-repeat: no-repeat;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      border: 1px solid;
+      border-radius: 15px 50px 30px 5px;
+  }
+  .container{
+      font-family: Arial, Helvetica, sans-serif;
+      border: 1px solid;
+      border-radius: 15px 50px 30px 5px;
+  }
+  footer{
+      background-color: burlywood;
+      height: 2rem;
+      border: 1px solid;
+      border-radius: 15px 50px 30px 5px;
+  }
+  #home{
+      padding-top: 60px;
+  }
+  .contact{
+      border: 1px solid;
+      border-radius: 15px 50px 30px 5px;
+  }
+
+body{
+    background-color: #e7ecee;
+}
+header{
+    background-color: brown;
+}
+#bigtextsmall{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.bigtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vh;
+}
+.heavenlyslice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+#about-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.emphasize{
+    font-size: xx-large
+}
+#orderpage, #mainform, #finalPrice, #location, #contacts{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.crust-images{
+    width: 40%;
+}
+.toppings{
+    width: 40%;
+}
+.contact{
+    background-color: brown;
+}
+#feedback{
+    width: 50%;
+}
